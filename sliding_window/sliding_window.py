@@ -1,3 +1,4 @@
+# Start
 def maxSum(arr, wsize):
     arraySize = len(arr)
     if arraySize <= wsize:
@@ -16,5 +17,7 @@ def maxSum(arr, wsize):
 arr = [80, -50, 90, 100, 37, 14]
 k = 3
 answer = maxSum(arr, k) #227
+
+# Results
 print(answer)
 
