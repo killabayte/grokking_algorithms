@@ -1,3 +1,5 @@
+#!/usr/local/bin/python
+
 # Start
 def maxSum(arr, wsize):
     arraySize = len(arr)
