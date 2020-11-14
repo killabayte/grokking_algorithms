@@ -1,3 +1,5 @@
+#!/usr/local/bin/python
+
 def binarySearch(arr, target):
     left = 0
     right = len(arr)-1
