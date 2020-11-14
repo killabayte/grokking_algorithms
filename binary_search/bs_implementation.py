@@ -1,5 +1,6 @@
 #!/usr/local/bin/python
 
+#Body
 def binarySearch(arr, target):
     left = 0
     right = len(arr)-1
@@ -21,6 +22,7 @@ target = 9
 
 result = binarySearch(arr, target) # index of the target: 5
 
+#Results
 if result != -1:
     print(f"Element is present at index {result}")
 else:
