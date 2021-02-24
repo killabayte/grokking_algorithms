@@ -1,6 +1,6 @@
 #!/usr/local/bin/python
 
-## Start
+# Start
 def maxSum(arr, wsize):
     arraySize = len(arr)
     if arraySize <= wsize:
@@ -20,6 +20,6 @@ arr = [80, -50, 90, 100, 37, 14]
 k = 3
 answer = maxSum(arr, k) #227
 
-## Results
+# Results
 print(answer)
 
